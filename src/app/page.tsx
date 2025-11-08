@@ -7,8 +7,6 @@ import NeuroSymbolicReasonerSection from "@/components/sections/neuro-symbolic-r
 import VideoShowcase from "@/components/sections/video-showcase";
 import BreakthroughFoundationModel from "@/components/sections/breakthrough-foundation-model";
 import CompanyChatbotComparison from "@/components/sections/company-chatbot-comparison";
-import GenAiVsApollo from "@/components/sections/gen-ai-vs-apollo";
-import GoogleCloudPartnership from "@/components/sections/google-cloud-partnership";
 import CareersSection from "@/components/sections/careers-section";
 import FooterCTA from "@/components/sections/footer-cta";
 
@@ -25,8 +23,6 @@ export default function Home() {
         <VideoShowcase />
         <BreakthroughFoundationModel />
         <CompanyChatbotComparison />
-        <GenAiVsApollo />
-        <GoogleCloudPartnership />
         <CareersSection />
         <FooterCTA />
       </main>

@@ -17,6 +17,13 @@ const publications = [
     doi: "10.1016/j.pnpbp.2024.111139"
   },
   {
+    title: "Melatonin induces per1a expression in zebrafish brain",
+    journal: "Progress in Microbes & Molecular Biology",
+    year: "2024",
+    type: "Second Author",
+    doi: "10.36877/pmmb.a0000455"
+  },
+  {
     title: "Cannabinoids: Emerging sleep modulator",
     journal: "Biomedicine & Pharmacotherapy",
     year: "2023",
@@ -33,7 +40,7 @@ const manuscripts = [
 
 const NeuroSymbolicReasonerSection = () => {
   return (
-    <section id="publications" className="bg-space text-mist py-12 md:py-24">
+    <section id="publications" className="bg-space text-mist py-8 md:py-16">
       <div className="container mx-auto px-5 md:px-12">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
@@ -44,7 +51,7 @@ const NeuroSymbolicReasonerSection = () => {
               Published Research & <span className="text-fire">Peer Review</span>
             </h2>
             <p className="text-21 text-mist/80 max-w-3xl mx-auto">
-              5 published papers (4 first-author) in top 10% journals. Peer reviewer for <span className="text-orange-accent">Neuroscience and Biobehavioral Reviews</span> and <span className="text-orange-accent">Frontiers in Pharmacology</span>.
+              4 published papers (3 first-author) in top 10% journals. Peer reviewer for <span className="text-orange-accent">Neuroscience and Biobehavioral Reviews</span> and <span className="text-orange-accent">Frontiers in Pharmacology</span>.
             </p>
           </div>
 

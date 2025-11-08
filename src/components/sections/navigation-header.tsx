@@ -41,8 +41,9 @@ const NavigationHeader = () => {
           {/* Right Side Buttons */}
           <div className="flex items-center gap-3">
             <a
-              href="/Brandon_Low_CV.pdf"
+              href="https://drive.google.com/file/d/1EawzgKflTUDk3ovRWXoevAn3NfKiJu7v/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
               className="hidden rounded border border-strokeDark bg-eerie px-4 py-2 text-15 text-mist transition-all duration-[400ms] hover:border-space/10 hover:bg-mist hover:text-space md:inline-block"
             >
               Download CV
@@ -82,8 +83,9 @@ const NavigationHeader = () => {
                 </a>
               ))}
               <a
-                href="/Brandon_Low_CV.pdf"
+                href="https://drive.google.com/file/d/1EawzgKflTUDk3ovRWXoevAn3NfKiJu7v/view?usp=sharing"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="rounded border border-strokeDark bg-eerie px-4 py-3 text-15 text-mist transition-all duration-[400ms] hover:bg-mist hover:text-space"
                 onClick={() => setIsMenuOpen(false)}
               >

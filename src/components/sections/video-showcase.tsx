@@ -42,7 +42,7 @@ const timeline = [
 
 const VideoShowcase = () => {
   return (
-    <section className="relative overflow-hidden bg-space py-12 md:py-24">
+    <section className="relative overflow-hidden bg-space py-8 md:py-16">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-accent/20 via-fire/20 to-orange-accent/20" />
       

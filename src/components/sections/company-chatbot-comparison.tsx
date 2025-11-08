@@ -27,7 +27,7 @@ const idealCofounder = [
 
 const CompanyChatbotComparison = () => {
   return (
-    <section className="bg-space py-12 md:py-24">
+    <section className="bg-space py-8 md:py-16">
       <div className="container">
         <div className="mb-12 text-center">
           <p className="mb-4 text-14 uppercase tracking-[0.2em] text-fire">

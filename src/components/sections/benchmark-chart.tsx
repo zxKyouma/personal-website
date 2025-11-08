@@ -10,8 +10,8 @@ const researchMetrics = {
     { name: 'Cerebral Microbleed Detection', value: 81.0, label: 'Dice 0.81', color: 'fire' },
   ],
   'PUBLICATIONS': [
-    { name: 'First-Author Papers', value: 80, label: '4 papers', color: 'fire' },
-    { name: 'Total Publications', value: 100, label: '5 papers', color: 'orange' },
+    { name: 'First-Author Papers', value: 75, label: '3 papers', color: 'fire' },
+    { name: 'Total Publications', value: 100, label: '4 papers', color: 'orange' },
     { name: 'Under Review', value: 60, label: '3 manuscripts', color: 'blue' },
     { name: 'Top 10% Journals', value: 100, label: 'All published', color: 'fire' },
   ],
@@ -23,7 +23,7 @@ const BenchmarkChart = () => {
   const maxValue = 100;
 
   return (
-    <section id="research" className="bg-space py-12 md:py-24">
+    <section id="research" className="bg-space py-8 md:py-16">
       <div className="container">
         <div className="mx-auto max-w-5xl">
           <p className="mb-8 text-center font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">

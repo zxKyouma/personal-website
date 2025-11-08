@@ -57,18 +57,11 @@ const HeroSection = () => {
 
   return (
     <section className="relative m-2.5 min-h-[380px] overflow-hidden rounded-xl border border-strokeDark bg-space md:min-h-[580px] lg:min-h-[calc(100svh-112px)]">
-      {/* Canvas Background */}
-      <div className="absolute inset-0">
-        <canvas ref={canvasRef} className="h-full w-full" />
-      </div>
-
-      {/* Dot Grid Overlay */}
-      <div 
-        className="absolute inset-0 opacity-30"
+      {/* Vignette Effect */}
+      <div
+        className="absolute inset-0 pointer-events-none"
         style={{
-          backgroundImage: `url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/17c44d76-55a1-4d6f-bd4b-99d581bc79e8-aui-io/assets/images/grid-dot-6.png')`,
-          backgroundSize: '20px 20px',
-          backgroundRepeat: 'repeat'
+          background: 'radial-gradient(ellipse at center, transparent 0%, transparent 40%, rgba(0, 0, 0, 0.4) 100%)'
         }}
       />
 
@@ -156,17 +149,11 @@ const HeroSection = () => {
               Self-taught AI researcher building clinical-grade deep learning models while studying medicine at Monash University Malaysia.
             </p>
           </div>
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4">
             <div className="rounded-lg border border-strokeDark bg-eerie/50 p-4 backdrop-blur-sm">
               <span className="text-14 uppercase text-fire">Location</span>
               <h3 className="mt-2 text-15 font-normal text-mist">
                 George Town, Penang, Malaysia
-              </h3>
-            </div>
-            <div className="rounded-lg border border-strokeDark bg-eerie/50 p-4 backdrop-blur-sm">
-              <span className="text-14 uppercase text-fire">Status</span>
-              <h3 className="mt-2 text-15 font-normal text-mist">
-                Ready within 3 months
               </h3>
             </div>
           </div>

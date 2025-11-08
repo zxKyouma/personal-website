@@ -19,14 +19,14 @@ const achievements = [
   },
   {
     title: "International Recognition",
-    description: "IChO 2022 silver medalist representing Malaysia. Presented at ECR 2025 (top 500/9,871 submissions, 30k+ attendees). 5 published papers (4 first-author) in top 10% journals.",
+    description: "IChO 2022 silver medalist representing Malaysia. Presented at ECR 2025 (top 500/9,871 submissions, 30k+ attendees). 4 published papers (3 first-author) in top 10% journals.",
     icon: Award,
   },
 ];
 
 const BreakthroughFoundationModel = () => {
   return (
-    <section id="projects" className="bg-space py-12 md:py-24">
+    <section id="projects" className="bg-space py-8 md:py-16">
       <div className="container">
         <div className="relative rounded-xl bg-mist p-6 text-eerie md:p-12 lg:p-16">
           <Image

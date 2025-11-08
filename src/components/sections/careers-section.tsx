@@ -67,7 +67,7 @@ const interests = [
 
 const CareersSection = () => {
   return (
-    <section className="bg-space py-12 md:py-24 lg:py-32">
+    <section className="bg-space py-8 md:py-16 lg:py-32">
       <div className="container">
         <div className="mb-12 text-center md:mb-16">
           <h2 className="mb-6 text-[clamp(2rem,6vw,4.5rem)] font-light uppercase leading-[1.1] text-mist">
@@ -111,13 +111,6 @@ const CareersSection = () => {
               </div>
             );
           })}
-        </div>
-
-        {/* Additional Info */}
-        <div className="mt-12 rounded-xl border border-strokeDark bg-eerie/50 p-6 text-center md:p-8">
-          <p className="text-21 font-light text-mist/90">
-            <span className="text-fire">Ready within 3 months</span> • Willing to do Product and Engineering • Technical with ideas, but open to exploring other opportunities
-          </p>
         </div>
       </div>
     </section>

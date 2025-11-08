@@ -3,23 +3,23 @@ import { Twitter, Linkedin, Github, Mail, ExternalLink } from 'lucide-react';
 
 const socialLinks = [
   { icon: Mail, label: 'Email', href: 'mailto:brandonlow0610@gmail.com' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
-  { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
-  { icon: Github, label: 'GitHub', href: 'https://github.com' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/brandon-low-zhen-xuen/' },
+  { icon: Twitter, label: 'Twitter', href: 'https://x.com/Brandon73614140' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/zxKyouma' },
 ];
 
 const quickLinks = [
-  { label: 'Google Scholar', href: 'https://scholar.google.com' },
-  { label: 'ORCID', href: 'https://orcid.org' },
-  { label: 'ResearchGate', href: 'https://researchgate.net' },
+  { label: 'Google Scholar', href: 'https://scholar.google.com/citations?hl=en&user=CRN_qCEAAAAJ&view_op=list_works' },
+  { label: 'ORCID', href: 'https://orcid.org/0009-0000-3324-8705' },
+  { label: 'ResearchGate', href: 'https://www.researchgate.net/profile/Zhen-Xuen-Brandon-Low' },
 ];
 
 const FooterCTA = () => {
   return (
-    <footer id="contact" className="bg-space py-12 md:py-24">
+    <footer id="contact" className="bg-space py-8 md:py-16">
       <div className="container">
-        <div className="grid overflow-hidden rounded-xl lg:grid-cols-[60%_40%]">
-          {/* Left Side - Contact CTA */}
+        <div className="overflow-hidden rounded-xl">
+          {/* Contact CTA - Full Width */}
           <div className="relative border border-strokeDark bg-gradient-to-br from-fire/20 via-orange-accent/20 to-blue-accent/20 p-8 md:p-12 lg:p-16">
             <div
               className="absolute inset-0 opacity-20"
@@ -51,25 +51,6 @@ const FooterCTA = () => {
                 <p className="flex items-center gap-2 text-18 text-mist">
                   📍 George Town, Penang, Malaysia
                 </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Side - Quick Info */}
-          <div className="border border-l-0 border-strokeDark bg-mist p-8 md:p-12 lg:border-l lg:p-16">
-            <p className="mb-6 text-14 uppercase text-eerie">Current Status</p>
-            <div className="space-y-4">
-              <div className="rounded-lg border border-eerie/20 bg-eerie/10 p-4">
-                <p className="text-14 font-light text-eerie/70">Position</p>
-                <p className="text-15 font-normal text-eerie">Year 3 Medical Student</p>
-              </div>
-              <div className="rounded-lg border border-eerie/20 bg-eerie/10 p-4">
-                <p className="text-14 font-light text-eerie/70">Institution</p>
-                <p className="text-15 font-normal text-eerie">Monash University Malaysia</p>
-              </div>
-              <div className="rounded-lg border border-eerie/20 bg-eerie/10 p-4">
-                <p className="text-14 font-light text-eerie/70">Availability</p>
-                <p className="text-15 font-normal text-fire">Ready within 3 months</p>
               </div>
             </div>
           </div>
