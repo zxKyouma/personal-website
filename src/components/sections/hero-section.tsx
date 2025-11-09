@@ -57,6 +57,23 @@ const HeroSection = () => {
 
   return (
     <section className="relative m-2.5 min-h-[380px] overflow-hidden rounded-xl border border-strokeDark bg-space md:min-h-[580px] lg:min-h-[calc(100svh-112px)]">
+      {/* Animated Gradient Canvas */}
+      <canvas
+        ref={canvasRef}
+        className="absolute inset-0 h-full w-full"
+        style={{ opacity: 0.8 }}
+      />
+
+      {/* Dot Grid Overlay */}
+      <div
+        className="absolute inset-0 opacity-30"
+        style={{
+          backgroundImage: `url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/17c44d76-55a1-4d6f-bd4b-99d581bc79e8-aui-io/assets/images/grid-dot-6.png')`,
+          backgroundSize: '30px 30px',
+          backgroundRepeat: 'repeat'
+        }}
+      />
+
       {/* Vignette Effect */}
       <div
         className="absolute inset-0 pointer-events-none"
